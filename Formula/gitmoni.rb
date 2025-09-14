@@ -11,7 +11,7 @@ class Gitmoni < Formula
 
   def install
     # If your main package is ./cmd/gitmoni, use that path. If it's at repo root, replace with "."
-    system "go", "build", *std_go_args(ldflags: "-s -w"), "./gitmoni"
+    system "go", "build", *std_go_args(ldflags: "-s -w"), "."
   end
 
   test do
