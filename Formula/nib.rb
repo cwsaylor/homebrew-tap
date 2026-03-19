@@ -2,7 +2,7 @@ class Nib < Formula
   desc "Stream of consciousness notes in the terminal, backed by SQLite"
   homepage "https://github.com/cwsaylor/nib"
   url "https://github.com/cwsaylor/nib/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  sha256 "353232fc7d8d6d669235d6154419ba387db702ab00769edbd947efd79a34201f"
   license "MIT"
 
   head "https://github.com/cwsaylor/nib.git", branch: "main"
