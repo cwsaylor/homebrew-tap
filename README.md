@@ -1,18 +1,33 @@
 # Cwsaylor Tap
 
-## How do I install these formulae?
+Homebrew formulae for personal projects.
 
-`brew install cwsaylor/tap/<formula>`
+## Formulae
 
-Or `brew tap cwsaylor/tap` and then `brew install <formula>`.
+| Formula | Description |
+|---------|-------------|
+| [gitmoni](https://github.com/cwsaylor/gitmoni) | Terminal UI for monitoring multiple local Git repositories for changes |
+| [nib](https://github.com/cwsaylor/nib) | Fast, keyboard-driven terminal notes app backed by SQLite |
 
-Or, in a `brew bundle` `Brewfile`:
+## Install
+
+```bash
+brew install cwsaylor/tap/gitmoni
+brew install cwsaylor/tap/nib
+```
+
+Or tap first, then install:
+
+```bash
+brew tap cwsaylor/tap
+brew install gitmoni
+brew install nib
+```
+
+Or in a `Brewfile`:
 
 ```ruby
 tap "cwsaylor/tap"
-brew "<formula>"
+brew "gitmoni"
+brew "nib"
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
