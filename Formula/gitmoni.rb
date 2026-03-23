@@ -1,8 +1,8 @@
 class Gitmoni < Formula
   desc "Terminal UI to monitor git repositories for local and remote changes"
   homepage "https://github.com/cwsaylor/gitmoni"
-  url "https://github.com/cwsaylor/gitmoni/archive/refs/tags/v0.8.1.tar.gz"
-  sha256 "95453abee59a82765ca214daaf45d9d109514e229bb815445b3802a291cae6b3"
+  url "https://github.com/cwsaylor/gitmoni/archive/refs/tags/v0.9.0.tar.gz"
+  sha256 "73165351312f5d199627630ffba4cc08609107f1a1f9d55ea53c157ee234a6a2"
   license "MIT"
 
   head "https://github.com/cwsaylor/gitmoni.git", branch: "main"
